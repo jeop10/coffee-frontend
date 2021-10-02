@@ -81,7 +81,7 @@
                 <div class="card mb-4 rounded-3 shadow-sm">
                     <img src="/img/pumpkin.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h1 class="card-title h2 pricing-card-title">Pumpkin</h1>
+                        <a href="/coffee/cortado" class="card-title h2 pricing-card-title">Pumpkin</a>
                         <h2 class="h4 mb-4">$12,99</h2>
                         <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
@@ -93,7 +93,7 @@
                 <div class="card mb-4 rounded-3 shadow-sm">
                     <img src="/img/cappuccino.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h1 class="card-title h2 pricing-card-title">Cappuccino</h1>
+                    <a href="/coffee/cortado"class="card-title h2 pricing-card-title">Cappuccino</a>
                         <h2 class="h4 mb-4">$12,99</h2>
                         <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
@@ -105,7 +105,7 @@
                 <div class="card mb-4 rounded-3 shadow-sm">
                     <img src="/img/misto.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h1 class="card-title h2 pricing-card-title">Misto</h1>
+                    <a href="/coffee/cortado" class="card-title h2 pricing-card-title">Misto</a>
                         <h2 class="h4 mb-4">$12,99</h2>
                         <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
@@ -117,7 +117,7 @@
                 <div class="card mb-4 rounded-3 shadow-sm">
                     <img src="/img/latte.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h1 class="card-title h2 pricing-card-title">Latte</h1>
+                    <a href="/coffee/cortado" class="card-title h2 pricing-card-title">Latte</a>
                         <h2 class="h4 mb-4">$12,99</h2>
                         <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
