@@ -83,9 +83,9 @@
                     <div class="card-body">
                         <h1 class="card-title h2 pricing-card-title">Pumpkin</h1>
                         <h2 class="h4 mb-4">$12,99</h2>
-                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                        <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -95,9 +95,9 @@
                     <div class="card-body">
                         <h1 class="card-title h2 pricing-card-title">Cappuccino</h1>
                         <h2 class="h4 mb-4">$12,99</h2>
-                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                        <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -107,9 +107,9 @@
                     <div class="card-body">
                         <h1 class="card-title h2 pricing-card-title">Misto</h1>
                         <h2 class="h4 mb-4">$12,99</h2>
-                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                        <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -119,9 +119,9 @@
                     <div class="card-body">
                         <h1 class="card-title h2 pricing-card-title">Latte</h1>
                         <h2 class="h4 mb-4">$12,99</h2>
-                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                        <a href="/cart-detail" class="w-100 btn btn-lg btn-outline-primary">
                             Add to cart
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
