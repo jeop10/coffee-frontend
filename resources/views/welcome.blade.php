@@ -128,7 +128,7 @@
         </div>
         <div class="row">
             <div class="col text-end">
-                <a href="#" class="text-dark text-decoration-none">
+                <a href="/all" class="text-dark text-decoration-none">
                     View All
                 </a>
             </div>
