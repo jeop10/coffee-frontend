@@ -1,5 +1,6 @@
 <?php
 
+use App\CoffeeApi\ApiClient;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -55,4 +56,10 @@ Route::get('/login', function () {
 
 Route::get('/sign-up', function () {
     return view('sign-up');
+});
+
+Route::get('/test-products', function () {
+    $api = new ApiClient();
+
+    return respose()->json($api->getProducts());
 });
