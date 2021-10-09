@@ -11,13 +11,29 @@ class ApiClient {
     public function __construct()
     {
         $this->client = new Client([
-            'base_uri' => 'coffee-backend/api',
+            'base_uri' => 'coffee-backend/api/',
         ]);
     }
 
-    public function getProducts()
+    public function getAllProducts()
     {
-        return $this->client->get('products');
+        $response = $this->client->get('products');
+
+        return $response->getBody();
+    }
+
+    public function getBestSelling()
+    {
+        $response = $this->client->get('products/best-selling');
+
+        return $response->getBody();
+    }
+
+    public function getProduct($product)
+    {
+        $response = $this->client->get('products/'.$product);
+
+        return $response->getBody();
     }
 
 }

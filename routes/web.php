@@ -1,6 +1,8 @@
 <?php
 
 use App\CoffeeApi\ApiClient;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,16 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'show']);
+
+Route::get('/products/{product}', [ProductsController::class, 'show']);
 
 Route::get('/all', function () {
     return view('lister');
-});
-
-Route::get('/coffee/cortado', function () {
-    return view('detail');
 });
 
 Route::get('/loaded-cart', function () {
@@ -61,5 +59,7 @@ Route::get('/sign-up', function () {
 Route::get('/test-products', function () {
     $api = new ApiClient();
 
-    return response()->json($api->getProducts());
+    $response = json_decode($api->getProducts()->getBody());
+
+    return response()->json($response);
 });
