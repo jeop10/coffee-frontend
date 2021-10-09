@@ -61,5 +61,5 @@ Route::get('/sign-up', function () {
 Route::get('/test-products', function () {
     $api = new ApiClient();
 
-    return respose()->json($api->getProducts());
+    return response()->json($api->getProducts());
 });
