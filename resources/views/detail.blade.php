@@ -13,7 +13,7 @@
             <div class="col-12 col-md-6">
                 <div class="p-2">
                     <h1 class="H2 text-center mb-3">{{$product->name}}</h1>
-                    <h2 class="h4 mb-3">${{$product->price}} <small class="small text-muted">Free shipping included</small></h2>
+                    <div class="h4 mb-3 text-center">${{$product->price}}</div>
                     <div class="text-start justify-content mb-3">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
