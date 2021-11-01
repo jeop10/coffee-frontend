@@ -7,7 +7,7 @@
     <div class="row row-cols-1 row-cols-md-4 mb-3">
         <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
-                <img src="/img/muffin.png" class="card-img-top" alt="...">
+                <img src="/img/blueberry-muffin.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h1 class="card-title h4 pricing-card-title">Blueberry Muffin</h1>
                     <h2 class="h4 mb-4">$12,99</h2>
